@@ -1,0 +1,45 @@
+.main-leg{
+    display: flex;
+    flex-direction: column;
+}
+
+.local-leg{
+    border: 1px solid black;
+    margin: 1rem auto;
+    padding: .5rem;
+    min-width: 70%;
+    min-height: 200px;
+}
+
+.state-leg{
+    border: 1px solid black;
+    margin: 1rem auto;
+    padding: .5rem;
+    min-width: 70%;
+    min-height: 200px;
+}
+
+.federal-leg{
+    border: 1px solid black;
+    margin: 1rem auto;
+    padding: .5rem;
+    min-width: 70%;
+    min-height: 200px;
+}
+
+@media (max-width: 767px){
+    .local-leg{
+        font-size: small;
+        max-height: 150px;
+    }
+    
+    .state-leg{
+        font-size: small;
+        max-height: 150px;
+    }
+    
+    .federal-leg{
+        font-size: small;
+        max-height: 150px;
+    }
+}
